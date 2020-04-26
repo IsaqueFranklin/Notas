@@ -1,0 +1,16 @@
+<h2>Suas notas: </h2>
+<hr>
+<a href="/users/notas/add"><button class="btn tbn-success">Nova nota</button></a>
+
+{{#each notas}}
+
+  <div class="card">
+    <div class="card-body">
+      <h4>{{titulo}}</h4>
+      <small>{{conteudo}}</small>
+    </div>
+  </div>
+
+{{else}}
+
+{{/each}}
